@@ -1,0 +1,128 @@
+.img {
+  background-image: url(src/img/Rectangle25.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.img1{
+  background-repeat: no-repeat;
+  background-image: url(src/img/Card1.png);
+  height: 255px;
+}
+.img2{
+  background-repeat: no-repeat;
+  background-image: url(src/img/Card2.png);
+  height: 255px;
+
+}
+.img3{
+  height: 255px;
+  background-repeat: no-repeat;
+  background-image: url(src/img/Card3.png);
+}
+.img4{
+  background-repeat: no-repeat;
+  height: 255px;  
+  background-image: url(src/img/Card4.png);
+}
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.dif{
+  background-image: url(src/img/Photo1.jpg);
+}
+.dif2{
+  background-image: url(src/img/Photo2.jpg);
+}
+.dif3{
+  background-image: url(src/img/Image9.png);
+}
+.gig{
+  background-image: url(src/img/Image22.png);
+}
+.gig2{
+  background-image: url(src/img/Image23.png);
+}
+.nabd{
+  box-shadow: 0px 4px 4px -4px #1E212C08;
+
+  box-shadow: 0px 12px 10px -6px #9A9CA50A;
+  
+  box-shadow: 0px 30px 24px -10px #9A9CA50D;
+  
+  box-shadow: 0px 80px 80px -20px #9A9CA514;
+  
+}
